@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand.css</title>
-    <link rel="stylesheet" href="./DOCS/grand.css">
-    <link rel="stylesheet" href="./DOCS/site.css">
+    <link rel="stylesheet" href="./grand.css">
+    <link rel="stylesheet" href="./site.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -15,19 +15,17 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#typograpy">typography</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+        <nav class="fixed width-100 bg-purple">
+            <ul class="flex-row flex-around font-medium">
+                <li><a href="#typograpy" class="white">typography</a></li>
+                <li><a href="#responsiveness" class="white"> responsiveness</a></li>
+                <li><a href="#styles" class="white">styles</a></li>
             </ul>
             <div></div>
         </nav>
         <section>
-            <h1>Grand.css</h1>
-            <p>A simple yet practical CSS library to help you style your next project.</p>
+            <h1 class="font-huge">Grand.css</h1>
+            <p class="font-tiny">A simple yet practical CSS library to help you style your next project.</p>
         </section>
     </header>
     <main>
@@ -36,26 +34,24 @@
                 amet consectetur adipisicing elit. Accusantium, molestias commodi. Distinctio nisi eius ipsa suscipit
                 nobis est a praesentium illum id ratione recusandae aliquam vitae, rerum pariatur alias. Nesciunt.</p>
         </section>
-        <div class="typography" id="typography">
-            <section>
+        <div id="typography">
                 <h2>typography</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto ratione repellendus amet quasi
                     sunt. Harum aspernatur fuga facere expedita, qui blanditiis iste aperiam recusandae fugiat.
                     Recusandae illum non ipsam!</p>
-            </section>
             <section class="headings">
                 <h2>headings</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugit distinctio quisquam impedit
                     corrupti quis, accusamus facere iure quibusdam dicta ipsam pariatur in quod corporis suscipit rerum
                     nisi cumque nemo!</p>
                 <div>
-                    <h2></h2>
+                    <h2 class="font-large">heading 1</h2>
                     <!-- style as if h1 -->
-                    <h2></h2>
-                    <h3></h3>
-                    <h4></h4>
-                    <h5></h5>
-                    <h6></h6>
+                    <h2>heading 2</h2>
+                    <h3>heading 3</h3>
+                    <h4>heading 4</h4>
+                    <h5>heading 5</h5>
+                    <h6>heading 6</h6>
                 </div>
             </section>
             <section>
@@ -80,7 +76,7 @@
                 <div></div>
             </section>
         </div>
-        <div>
+        <div id="responsiveness">
             <h2>responsiveness</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias veritatis, vitae delectus hic,
                 iste dicta illo omnis doloribus tempore, consectetur inventore. Quaerat porro expedita distinctio. Omnis
@@ -107,7 +103,7 @@
                 <div></div>
             </section>
         </div>
-        <div class="styles">
+        <div class="" id="styles">
             <h2>styles</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum soluta illo distinctio commodi aut,
                 nesciunt earum deleniti tempora dignissimos ratione iste eum, corporis ut laboriosam, provident maiores
@@ -142,6 +138,9 @@
             </section>
         </div>
     </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

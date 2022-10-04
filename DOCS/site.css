@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+    --title-font: 'Silkscreen';
+    --body-font: 'Cormorant Garamond';
+}
+
+html {
+    font-family: "Cormorant Garamond", sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, nav li>a {
+    font-family: "Silkscreen", sans-serif;
+}
+
+header section {
+    margin: 100px auto 0 auto;
+    max-width: 1200px
+}
+
+ul {
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+main section {
+    padding: 0 30px;
+}
+
+.headings div {
+    padding: 0 30px;
+}
