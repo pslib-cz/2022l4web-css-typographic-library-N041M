@@ -11,6 +11,12 @@
     --white: #fff;
     --light-grey: #ebebeb;
     --light-grey-code-border: #d1d1d1;
+    /* borders */
+    --border-tiny: 5px;
+    --border-small: 10px;
+    --border-medium: 15px;
+    --border-large: 20px;
+    --border-huge: 25px;
 }
 
 /* css resets */
@@ -94,7 +100,21 @@ h1 {
     background-color: var(--white);
 }
 
-/*** flex ****/
+/*** composition ****/
+
+/* centering */
+
+.center-x {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-y {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* flex */
 
 .flex-row {
     display: flex;
@@ -125,23 +145,23 @@ h1 {
 /*** borders ***/
 
 .border-tiny {
-    border-radius: 5px;
+    border-radius: var(--border-tiny);
 }
 
 .border-small {
-    border-radius: 10px;
+    border-radius: var(--border-small);
 }
 
 .border-medium {
-    border-radius: 15px;
+    border-radius: var(--border-medium);
 }
 
 .border-large {
-    border-radius: 20px;
+    border-radius: var(--border-large);
 }
 
 .border-huge {
-    border-radius: 25px;
+    border-radius: var(--border-huge);
 }
 
 /*** miscellaneous ***/
