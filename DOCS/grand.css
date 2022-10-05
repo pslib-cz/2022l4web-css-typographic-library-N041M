@@ -9,6 +9,8 @@
     --purple: #5500FF;
     --black: #000;
     --white: #fff;
+    --light-grey: #ebebeb;
+    --light-grey-code-border: #d1d1d1;
 }
 
 /* css resets */
@@ -36,10 +38,6 @@ h1 {
 
 /* text sizes */
 
-.code-font {
-    font-family: monospace;
-}
-
 .font-tiny {
     font-size: var(--font-tiny);
 }
@@ -63,7 +61,11 @@ h1 {
 /* colour sets */
 
 .bg-code {
-
+    font-family: monospace;
+    border: solid 1px;
+    border-color: var(--light-grey-code-border);
+    background-color: var(--light-grey);
+    padding: 25px;
 }
 
 /* colours */
@@ -112,18 +114,34 @@ h1 {
     justify-content: space-between;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
 /*** borders ***/
 
-.border-tiny{
-
+.border-tiny {
+    border-radius: 5px;
 }
 
-.border-small{
-
+.border-small {
+    border-radius: 10px;
 }
 
-.border-medium{
+.border-medium {
+    border-radius: 15px;
+}
 
+.border-large {
+    border-radius: 20px;
+}
+
+.border-huge {
+    border-radius: 25px;
 }
 
 /*** miscellaneous ***/
@@ -138,7 +156,7 @@ h1 {
     width: 100%;
 }
 
-.width-75{
+.width-75 {
     width: 75%;
 }
 
@@ -150,7 +168,7 @@ h1 {
     width: 25%;
 }
 
-.height-100{
+.height-100 {
     height: 100%;
 }
 
