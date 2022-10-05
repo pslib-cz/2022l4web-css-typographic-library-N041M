@@ -63,7 +63,7 @@
                     maiores nam ab minus mollitia illo libero facere. Ab iusto atque cupiditate facere ipsum
                     consequuntur necessitatibus quos? Cupiditate dolore aliquid soluta, omnis praesentium error nostrum.
                     Dolorem!</p>
-                <div class="bg-code border-tiny">
+                <div class="bg-code border-tiny flex-row flex-around">
                     <pre><code>/* text sizes */
 
 .font-tiny {
@@ -85,7 +85,8 @@
 .font-huge {
     font-size: var(--font-huge);
 }</code></pre>
-<pre><code>:root {
+                    <div class="flex-column flex-between">
+                        <pre><code>:root {
     /* typography */
     --font-tiny: 12px;
     --font-small: 18px;
@@ -94,6 +95,15 @@
     --font-huge: 36px;
 }
 </code></pre>
+                        <pre><code>&lt;section&gt;
+    &lt;h1&gt; class="font-huge">Grand.css&lt;/h1&gt;
+    &lt;p&gt; class="font-tiny">A simple yet practical CSS library to help you style your next project.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+<code class="center-x"><section>
+    <h2 class="font-huge">Grand.css</h2>
+    <p class="font-tiny">A simple yet practical CSS library to help you style your next project.</p>
+</section></code>
+                    </div>
                 </div>
             </section>
             <section>
