@@ -24,7 +24,7 @@ ul {
     padding: 20px;
 }
 
-main {
+main, footer > p {
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -35,4 +35,9 @@ main section {
 
 main div section div {
     padding: 0 30px;
+}
+
+footer p  {
+    margin: 0;
+    padding: 0 20px;
 }
