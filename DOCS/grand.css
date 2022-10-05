@@ -36,6 +36,10 @@ h1 {
 
 /* text sizes */
 
+.code-font {
+    font-family: monospace;
+}
+
 .font-tiny {
     font-size: var(--font-tiny);
 }
@@ -54,6 +58,12 @@ h1 {
 
 .font-huge {
     font-size: var(--font-huge);
+}
+
+/* colour sets */
+
+.bg-code {
+
 }
 
 /* colours */
@@ -102,6 +112,20 @@ h1 {
     justify-content: space-between;
 }
 
+/*** borders ***/
+
+.border-tiny{
+
+}
+
+.border-small{
+
+}
+
+.border-medium{
+
+}
+
 /*** miscellaneous ***/
 
 .fixed {
@@ -109,8 +133,6 @@ h1 {
     position: fixed;
     top: 0;
 }
-
-
 
 .width-100 {
     width: 100%;
@@ -142,4 +164,12 @@ h1 {
 
 .height-25 {
     height: 25%;
+}
+
+.padding-none {
+    padding: 0;
+}
+
+.margin-none {
+    margin: 0;
 }
