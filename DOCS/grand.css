@@ -77,8 +77,8 @@ pre {
 .bg-code {
     font-family: monospace;
     border: solid 1px;
-    border-color: var(--light-grey-code-border);
-    background-color: var(--light-grey);
+    /* border-color: var(--light-grey-code-border);
+    background-color: var(--light-grey); */
     padding: 25px;
 }
 
