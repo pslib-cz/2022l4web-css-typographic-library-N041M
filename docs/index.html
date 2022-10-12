@@ -41,7 +41,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto ratione repellendus amet quasi
                 sunt. Harum aspernatur fuga facere expedita, qui blanditiis iste aperiam recusandae fugiat.
                 Recusandae illum non ipsam!</p>
-            <section class="headings">
+            <section>
                 <h2>headings</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga fugit distinctio quisquam impedit
                     corrupti quis, accusamus facere iure quibusdam dicta ipsam pariatur in quod corporis suscipit rerum
@@ -100,10 +100,13 @@
     &lt;p <mark>class="font-tiny"</mark>&gt;A simple yet practical CSS library to help you 
     style your next project.&lt;/p&gt;
 &lt;/section&gt;</code></pre>
-<code><section>
-    <h2 class="font-huge">Grand.css</h2>
-    <p class="font-tiny">A simple yet practical CSS library to help you style your next project.</p>
-</section></code>
+                        <code>
+                            <section>
+                                <h2 class="font-huge">Grand.css</h2>
+                                <p class="font-tiny">A simple yet practical CSS library to help you style your next
+                                    project.</p>
+                            </section>
+                        </code>
                     </div>
                 </div>
             </section>
@@ -112,7 +115,13 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique aspernatur impedit fuga numquam
                     ducimus recusandae natus tempora, vitae sunt? Maxime dignissimos possimus aliquam reprehenderit
                     quibusdam repudiandae quod sequi culpa voluptatem!</p>
-                <div></div>
+                <div class="flex-collumn">
+                    <button class="btn bg-purple white border-small font-small">Button 1</button>
+                    <button class="btn bg-red white border-medium font-medium"> Button 2</button>
+                    <button class="btn bg-blue white border-large font-large">Button 3</button>
+                    <button class="btn bg-yellow black border-huge font-huge">Button 4</button>
+                    <div class="bg-code"></div>
+                </div>
             </section>
             <section>
                 <h2>tables</h2>
@@ -132,7 +141,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, perspiciatis explicabo. Vitae aliquam
                     soluta facilis veniam accusantium nihil in excepturi porro, amet velit dignissimos illo sequi libero
                     repudiandae, alias iure.</p>
-                <div class="bg-code border-tiny">
+                <div class="bg-code fit border-tiny">
                     <pre><code>/* flex */
 
 .flex-row {

@@ -9,6 +9,11 @@
     --purple: #5500FF;
     --black: #000;
     --white: #fff;
+    --red: #FA5353;
+    --blue: #459AFD;
+    --green: #29F676;
+    --yellow: #F0F320;
+    --orange: #FF921F;
     --light-grey: #ebebeb;
     --light-grey-code-border: #d1d1d1;
     /* borders */
@@ -80,6 +85,13 @@ mark {
     font-size: var(--font-huge);
 }
 
+/*** buttons ***/
+
+.btn {
+    padding: 15px;
+    border: solid 1px;
+}
+
 /* colour sets */
 
 .bg-code {
@@ -98,6 +110,46 @@ mark {
 
 .bg-purple {
     background-color: var(--purple);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.green {
+    color: var(--green);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.bg-orange {
+    background-color: var(--orange);
 }
 
 .black {
@@ -137,9 +189,19 @@ mark {
     flex-direction: row;
 }
 
+.flex-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.flex-column-rev {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .flex-around {
@@ -186,6 +248,10 @@ mark {
     /* Acount for overlap by adding space under top effected element */
     position: fixed;
     top: 0;
+}
+
+.fit {
+    width: fit-content;
 }
 
 .width-100 {
