@@ -47,6 +47,14 @@ pre {
     margin: 0;
 }
 
+
+/***** colour presets *****/
+
+mark {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
 /*** typography ***/
 
 

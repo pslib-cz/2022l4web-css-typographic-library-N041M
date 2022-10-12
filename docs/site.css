@@ -29,11 +29,11 @@ main, footer > p {
     max-width: 1200px;
 }
 
-main section {
+main > div > section {
     padding: 0 30px;
 }
 
-main div section div {
+main div section > div {
     padding: 0 30px;
 }
 
