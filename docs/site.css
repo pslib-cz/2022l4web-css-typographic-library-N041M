@@ -45,3 +45,9 @@ footer p  {
 code > section > h2 {
     margin: 0;
 }
+
+.colour-example {
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+}

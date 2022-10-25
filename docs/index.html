@@ -81,8 +81,8 @@
 }
 </code></pre>
                         <pre><code>&lt;section&gt;
-    &lt;h1 <mark>class="font-huge"</mark>&gt;Grand.css&lt;/h1&gt;
-    &lt;p <mark>class="font-tiny"</mark>&gt;A simple yet practical CSS library to help you 
+    &lt;h1 class="<mark>font-huge</mark>"&gt;Grand.css&lt;/h1&gt;
+    &lt;p class="<mark>font-tiny</mark>"&gt;A simple yet practical CSS library to help you 
     style your next project.&lt;/p&gt;
 &lt;/section&gt;</code></pre>
                         <code>
@@ -211,7 +211,7 @@
 .flex-nowrap {
     flex-wrap: nowrap;
 }</code></pre>
-                    <div class="flex-column flex-between">
+                    <div class="flex-column flex-around">
                         <pre><code>:root {
     /* sizes */
     --tiny: 5px;
@@ -249,13 +249,13 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est labore nostrum minima rerum enim
                     obcaecati, ducimus adipisci, iste, consectetur eaque hic. Et illum atque similique consectetur
                     explicabo, fugiat at omnis?</p>
-                <div class="flex-row flex-between gap-medium">
-                    <img class="img radius-small width-50 height-fit" src="./img/samoyed.jpg" alt="cute dog">
-                    <img class="img radius-small width-50 height-fit center-y" src="./img/cat.jpg" alt="cute cat">
+                <div class="flex-column flex-between gap-medium margin-medium">
+                    <img class="img radius-small width-50 height-fit center-x" src="./img/samoyed.jpg" alt="cute dog">
+                    <img class="img radius-small width-50 height-fit center-x" src="./img/cat.jpg" alt="cute cat">
                 </div>
-                <div class="bg-code width-50 radius-tiny center-x margin-medium">
-                    <code>
-                        <pre>/* images */
+                <div class="bg-code flex-column radius-tiny gap-huge">
+                    <div class="flex-row flex-around">
+                        <pre><code>/* images */
 
 @keyframes in {
     to {
@@ -275,7 +275,18 @@
         transform: scale(1);
     }
 }
-                        
+</code></pre>
+                        <div>
+                            <pre><code>:root {
+    /* timing */
+    --shortest: 0.25s;
+    --short: 0.5s;
+    --standard: 0.75s;
+    --long: 1s;
+    --longest: 1.25s;    
+}
+</code></pre>
+                            <pre><code>             
 .img {
     animation: in var(--short);
     z-index: 1;
@@ -285,8 +296,13 @@
     transform: scale(1.07);
     animation: out var(--short);
     z-index: 2;
-}</pre>
-                    </code>
+}</code></pre>
+                        </div>
+                    </div>
+                    <pre class="center-x"><code>&lt;img class="<mark>img</mark> radius-small width-50 height-fit center-x" src="./img/samoyed.jpg" alt="cute dog"&gt;
+&lt;img class="<mark>img</mark> radius-small width-50 height-fit center-x" src="./img/cat.jpg" alt="cute cat"&gt;
+</code>
+</pre>
                 </div>
             </section>
         </div>
@@ -302,8 +318,8 @@
                     aliquid iusto, magnam maxime officia dolor cupiditate laudantium culpa laborum porro, voluptates
                     molestias ad, debitis animi veniam natus! Sunt aliquam autem accusamus voluptates?
                 </p>
-                <div class="bg-code radius-tiny">
-                    <pre><code>/* colour sets */
+                <div class="bg-code flex-column radius-tiny">
+                    <pre class="center-x"><code>/* colour sets */
 
 .bg-code {
     font-family: monospace;
@@ -319,14 +335,215 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde doloribus ipsam ea obcaecati ullam
                     ducimus nobis delectus? Repellendus assumenda id, similique consequatur laudantium magni quibusdam
                     non voluptas repellat error aliquid.</p>
-                <div></div>
+                <div class="flex-row flex-between margin-medium center-x width-50">
+                    <div class="center-y">
+                        <div class="bg-purple colour-example"></div>
+                        <div class="bg-red colour-example"></div>
+                        <div class="bg-blue colour-example"></div>
+                        <div class="bg-green colour-example"></div>
+                        <div class="bg-yellow colour-example"></div>
+                        <div class="bg-orange colour-example"></div>
+                        <div class="bg-black colour-example"></div>
+                        <div class="bg-white colour-example"></div>
+                    </div>
+                    <div class="bg-code width-fit">
+                        <pre><code>:root {
+    /* colours */
+    --purple: #5500FF;
+    --black: #000;
+    --white: #fff;
+    --red: #FA5353;
+    --blue: #459AFD;
+    --green: #29F676;
+    --yellow: #F0F320;
+    --orange: #FF921F;
+    --light-grey: #ebebeb;
+    --light-grey-code-border: #d1d1d1;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="bg-code flex-row flex-around">
+                    <pre><code>/* colours */
+
+.purple {
+    color: var(--purple);
+}
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.green {
+    color: var(--green);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.black {
+    color: var(--black);
+}
+
+.white {
+    color: var(--white);
+}</code></pre>
+                    <pre><code>/* backgrounds */
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.bg-white {
+    background-color: var(--white);
+}</code></pre>
+                    <pre><code>/* border colours */
+
+.border-purple {
+    border-color: var(--purple);
+}
+
+.border-red {
+    border-color: var(--red);
+}
+
+.border-blue {
+    border-color: var(--blue);
+}
+
+.border-green {
+    border-color: var(--green);
+}
+
+.border-yellow {
+    border-color: var(--yellow);
+}
+
+.border-orange {
+    border-color: var(--orange);
+}
+
+.border-black {
+    border-color: var(--black);
+}
+
+.border-white {
+    border-color: var(--white);
+}
+</code></pre>
+                </div>
             </section>
             <section>
                 <h2>borders</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim obcaecati non veniam, mollitia rerum
                     dolorem sint soluta ipsum at eos? Accusantium rem consequuntur nisi illo accusamus magnam vel,
                     mollitia sint?</p>
-                <div></div>
+                <div class="bg-code flex-row flex-between">
+                    <pre><code>/*** borders ***/
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-double {
+    border-style: double;
+}
+
+.border-none {
+    border-style: none;
+}</code></pre>
+<pre><code>.border-1 {
+    border-width: 1px;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-3 {
+    border-width: 3px;
+}
+
+.border-tiny {
+    border-width: var(--tiny);
+}
+
+.border-small {
+    border-width: var(--small);
+}
+
+.border-medium {
+    border-width: var(--medium);
+}
+
+.border-large {
+    border-width: var(--large);
+}
+
+.border-huge {
+    border-width: var(--huge);
+}</code></pre>
+<pre><code>.radius-tiny {
+    border-radius: var(--tiny);
+}
+
+.radius-small {
+    border-radius: var(--small);
+}
+
+.radius-medium {
+    border-radius: var(--medium);
+}
+
+.radius-large {
+    border-radius: var(--large);
+}
+
+.radius-huge {
+    border-radius: var(--huge);
+}
+</code></pre>
+                </div>
             </section>
             <section>
                 <h2>miscellaneous</h2>

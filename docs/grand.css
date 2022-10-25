@@ -14,7 +14,7 @@
     /* timing */
     --shortest: 0.25s;
     --short: 0.5s;
-    --average: 0.75s;
+    --standard: 0.75s;
     --long: 1s;
     --longest: 1.25s;
     /* colours */
@@ -30,7 +30,7 @@
     --light-grey-code-border: #d1d1d1;
 }
 
-                                                                                                                                                /* css resets */
+/* css resets */
 
 body {
     margin: 0;
@@ -58,18 +58,20 @@ pre {
     margin: 0;
 }
 
-button {border: none;}
+button {
+    border: none;
+}
 
-                                                                                                                                                /***** colour presets *****/
+/***** colour presets *****/
 
 mark {
     background-color: var(--purple);
     color: var(--white);
 }
 
-                                                                                                                                                /*** typography ***/
+/*** typography ***/
 
-                                                                                                                                                /* text sizes */
+/* text sizes */
 
 .font-tiny {
     font-size: var(--font-tiny);
@@ -91,7 +93,7 @@ mark {
     font-size: var(--font-huge);
 }
 
-                                                                                                                                                /*** buttons ***/
+/*** buttons ***/
 
 .btn {
     padding: 15px;
@@ -106,7 +108,8 @@ mark {
     filter: brightness(90%);
 
 }
-                                                                                                                                                /* colours */
+
+/* colours */
 
 .purple {
     color: var(--purple);
@@ -204,9 +207,9 @@ mark {
     border-color: var(--white);
 }
 
-                                                                                                                                                /*** composition ****/
+/*** composition ****/
 
-                                                                                                                                                /* flex */
+/* flex */
 
 .flex-row {
     display: flex;
@@ -264,7 +267,7 @@ mark {
     gap: var(--huge);
 }
 
-                                                                                                                                                /*** borders ***/
+/*** borders ***/
 
 .border-solid {
     border-style: solid;
@@ -338,7 +341,7 @@ mark {
     border-radius: var(--huge);
 }
 
-                                                                                                                                                /*** miscellaneous ***/
+/*** miscellaneous ***/
 
 .fixed {
     /* Acount for overlap by adding space under top effected element */
@@ -443,7 +446,7 @@ mark {
     margin: var(--huge);
 }
 
-                                                                                                                                                /* centering */
+/* centering */
 
 .center-x {
     margin-left: auto;
@@ -455,7 +458,7 @@ mark {
     margin-bottom: auto;
 }
 
-                                                                                                                                                /* images */
+/* images */
 
 @keyframes in {
     to {
