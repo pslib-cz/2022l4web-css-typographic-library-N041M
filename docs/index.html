@@ -135,7 +135,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, perspiciatis explicabo. Vitae aliquam
                     soluta facilis veniam accusantium nihil in excepturi porro, amet velit dignissimos illo sequi libero
                     repudiandae, alias iure.</p>
-                <div class="bg-code fit border-tiny">
+                <div class="bg-code width-50 border-tiny center-x margin-medium">
                     <pre><code>/* flex */
 
 .flex-row {
@@ -170,8 +170,43 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est labore nostrum minima rerum enim
                     obcaecati, ducimus adipisci, iste, consectetur eaque hic. Et illum atque similique consectetur
                     explicabo, fugiat at omnis?</p>
-                <div>
-                    <img class="img width-50 center-x flex-row border-small" src="./img/samoyed.jpg" alt="cute dog">
+                <div class="flex-row flex-between gap-medium">
+                    <img class="img border-small width-50 height-fit" src="./img/samoyed.jpg" alt="cute dog">
+                    <img class="img border-small width-50 height-fit center-y" src="./img/cat.jpg" alt="cute cat">
+                </div>
+                <div class="bg-code width-50 border-tiny center-x margin-medium">
+                    <code><pre>/* images */
+
+@keyframes in {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(1.07);
+    }
+}
+                        
+@keyframes out {
+    100% {
+        transform: scale(1.07);
+    }
+                        
+    0% {
+        transform: scale(1);
+    }
+}
+                        
+.img {
+    animation: in var(--short);
+    z-index: 1;
+}
+                        
+.img:hover {
+    transform: scale(1.07);
+    animation: out var(--short);
+    z-index: 2;
+}</pre>
+                    </code>
                 </div>
             </section>
         </div>
@@ -200,17 +235,10 @@
                 </div>
             </section>
             <section>
-                <h2>colours</h2>
+                <h2>colours and backgrounds</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde doloribus ipsam ea obcaecati ullam
                     ducimus nobis delectus? Repellendus assumenda id, similique consequatur laudantium magni quibusdam
                     non voluptas repellat error aliquid.</p>
-                <div></div>
-            </section>
-            <section>
-                <h2>backgrounds</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad alias quod assumenda neque beatae ut
-                    ducimus reiciendis aliquam vero error repellat et illum incidunt explicabo iste, fugiat quisquam
-                    unde iusto.</p>
                 <div></div>
             </section>
             <section>

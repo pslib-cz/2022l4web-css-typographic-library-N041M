@@ -104,7 +104,7 @@ mark {
 }
 
 .btn:active {
- filter: brightness(90%);
+    filter: brightness(90%);
 
 }
 
@@ -186,18 +186,6 @@ mark {
 
 /*** composition ****/
 
-/* centering */
-
-.center-x {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.center-y {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 /* flex */
 
 .flex-row {
@@ -236,6 +224,26 @@ mark {
     flex-wrap: nowrap;
 }
 
+.gap-tiny {
+    gap: var(--tiny);
+}
+
+.gap-small {
+    gap: var(--small);
+}
+
+.gap-medium {
+    gap: var(--medium);
+}
+
+.gap-large {
+    gap: var(--large);
+}
+
+.gap-huge {
+    gap: var(--huge);
+}
+
 /*** borders ***/
 
 .border-tiny {
@@ -264,10 +272,15 @@ mark {
     /* Acount for overlap by adding space under top effected element */
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
-.fit {
+.width-fit {
     width: fit-content;
+}
+
+.width-auto {
+    width: auto;
 }
 
 .width-100 {
@@ -284,6 +297,14 @@ mark {
 
 .width-25 {
     width: 25%;
+}
+
+.height-fit {
+    height: fit-content;
+}
+
+.height-auto {
+    height: auto;
 }
 
 .height-100 {
@@ -350,12 +371,25 @@ mark {
     margin: var(--huge);
 }
 
+/* centering */
+
+.center-x {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-y {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* images */
 
 @keyframes in {
     to {
         transform: scale(1);
     }
+
     from {
         transform: scale(1.07);
     }
@@ -365,6 +399,7 @@ mark {
     100% {
         transform: scale(1.07);
     }
+
     0% {
         transform: scale(1);
     }
@@ -372,9 +407,11 @@ mark {
 
 .img {
     animation: in var(--short);
+    z-index: 1;
 }
 
 .img:hover {
     transform: scale(1.07);
-    animation: out var(--short)
+    animation: out var(--short);
+    z-index: 2;
 }
