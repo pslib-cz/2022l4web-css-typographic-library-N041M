@@ -58,6 +58,7 @@ pre {
     margin: 0;
 }
 
+button {border: none;}
 
                                                                                                                                                 /***** colour presets *****/
 
@@ -94,7 +95,6 @@ mark {
 
 .btn {
     padding: 15px;
-    border: none;
     cursor: pointer;
 }
 
@@ -106,17 +106,6 @@ mark {
     filter: brightness(90%);
 
 }
-
-/* colour sets */
-
-.bg-code {
-    font-family: monospace;
-    border: solid 1px;
-    /* border-color: var(--light-grey-code-border);
-    background-color: var(--light-grey); */
-    padding: 25px;
-}
-
                                                                                                                                                 /* colours */
 
 .purple {
@@ -184,35 +173,35 @@ mark {
 }
 
 .border-purple {
-    border: var(--purple);
+    border-color: var(--purple);
 }
 
 .border-red {
-    border: var(--red);
+    border-color: var(--red);
 }
 
 .border-blue {
-    border: var(--blue);
+    border-color: var(--blue);
 }
 
 .border-green {
-    border: var(--green);
+    border-color: var(--green);
 }
 
 .border-yellow {
-    border: var(--yellow);
+    border-color: var(--yellow);
 }
 
 .border-orange {
-    border: var(--orange);
+    border-color: var(--orange);
 }
 
 .border-black {
-    border: var(--black);
+    border-color: var(--black);
 }
 
 .border-white {
-    border: var(--white);
+    border-color: var(--white);
 }
 
                                                                                                                                                 /*** composition ****/
@@ -278,55 +267,55 @@ mark {
                                                                                                                                                 /*** borders ***/
 
 .border-solid {
-    border: solid;
+    border-style: solid;
 }
 
 .border-dashed {
-    border: dashed;
+    border-style: dashed;
 }
 
 .border-dotted {
-    border: dotted;
+    border-style: dotted;
 }
 
 .border-double {
-    border: double;
+    border-style: double;
 }
 
 .border-none {
-    border: none;
+    border-style: none;
 }
 
 .border-1 {
-    border: 1px;
+    border-width: 1px;
 }
 
 .border-2 {
-    border: 2px;
+    border-width: 2px;
 }
 
 .border-3 {
-    border: 3px;
+    border-width: 3px;
 }
 
 .border-tiny {
-    border: var(--tiny);
+    border-width: var(--tiny);
 }
 
 .border-small {
-    border: var(--small);
+    border-width: var(--small);
 }
 
 .border-medium {
-    border: var(--medium);
+    border-width: var(--medium);
 }
 
 .border-large {
-    border: var(--large);
+    border-width: var(--large);
 }
 
 .border-huge {
-    border: var(--huge);
+    border-width: var(--huge);
 }
 
 .radius-tiny {
@@ -497,4 +486,15 @@ mark {
     transform: scale(1.07);
     animation: out var(--short);
     z-index: 2;
+}
+
+/* colour sets */
+
+.bg-code {
+    font-family: monospace;
+    border: solid 1px;
+    border-color: var(--light-grey-code-border);
+    border-radius: var(--tiny);
+    background-color: var(--light-grey);
+    padding: 25px;
 }
