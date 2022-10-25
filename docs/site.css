@@ -30,11 +30,11 @@ main, footer > p {
 }
 
 main > div > section {
-    padding: 0 30px;
+    margin: 0 30px;
 }
 
 main div section > div {
-    padding: 0 30px;
+    margin: 0 30px;
 }
 
 footer p  {
