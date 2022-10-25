@@ -42,6 +42,14 @@ footer p  {
     padding: 0 20px;
 }
 
+footer div {
+    max-width: 1200px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
 code > section > h2 {
     margin: 0;
 }

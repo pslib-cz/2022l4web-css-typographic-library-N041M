@@ -242,6 +242,30 @@
     gap: var(--huge);
 }</code></pre>
                     </div>
+                    <div class="flex-column gap-large center-y">
+                        <pre><code>&lt;div class="<mark>flex-row flex-between</mark> margin-medium center-x width-50"&gt;
+   &lt;div class="center-y">
+        &lt;div class="bg-purple colour-example">&lt;/div>
+        &lt;div class="bg-red colour-example">&lt;/div>
+        &lt;div class="bg-blue colour-example">&lt;/div>
+        &lt;div class="bg-green colour-example">&lt;/div>
+        &lt;div class="bg-yellow colour-example">&lt;/div>
+        &lt;div class="bg-orange colour-example">&lt;/div>
+        &lt;div class="bg-black colour-example">&lt;/div>
+        &lt;div class="bg-white colour-example">&lt;/div>
+    &lt;/div>
+&lt;/div></code></pre>
+                        <div class="center-y flex-row">
+                            <div class="bg-purple center-x colour-example"></div>
+                            <div class="bg-red center-x colour-example"></div>
+                            <div class="bg-blue center-x colour-example"></div>
+                            <div class="bg-green center-x colour-example"></div>
+                            <div class="bg-yellow center-x colour-example"></div>
+                            <div class="bg-orange center-x colour-example"></div>
+                            <div class="bg-black center-x colour-example"></div>
+                            <div class="bg-white center-x colour-example"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section>
@@ -471,7 +495,7 @@
                     dolorem sint soluta ipsum at eos? Accusantium rem consequuntur nisi illo accusamus magnam vel,
                     mollitia sint?</p>
                 <div class="bg-code flex-row flex-between">
-                    <pre><code>/*** borders ***/
+                    <pre class="center-y"><code>/*** borders ***/
 
 .border-solid {
     border-style: solid;
@@ -492,7 +516,7 @@
 .border-none {
     border-style: none;
 }</code></pre>
-<pre><code>.border-1 {
+                    <pre class="center-y"><code>.border-1 {
     border-width: 1px;
 }
 
@@ -523,7 +547,7 @@
 .border-huge {
     border-width: var(--huge);
 }</code></pre>
-<pre><code>.radius-tiny {
+                    <pre class="center-y"><code>.radius-tiny {
     border-radius: var(--tiny);
 }
 
@@ -550,12 +574,126 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente a, ex expedita libero deserunt ad
                     qui blanditiis? Quibusdam odio itaque optio tempore, provident unde impedit, cumque soluta iusto
                     debitis ipsum!s</p>
-                <div></div>
+                <div class="bg-code flex-row flex-around">
+                    <pre><code>.fixed {
+    /* Acount for overlap by adding space under top effected element */
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.width-fit {
+    width: fit-content;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.height-fit {
+    height: fit-content;
+}
+
+.height-auto {
+    height: auto;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.height-75 {
+    height: 75%;
+}
+
+.height-50 {
+    height: 50%;
+}
+
+.height-25 {
+    height: 25%;
+}</code></pre>
+                    <pre><code>.padding-none {
+    padding: 0;
+}
+
+.padding-tiny {
+    padding: var(--tiny);
+}
+
+.padding-small {
+    padding: var(--small);
+}
+
+.padding-medium {
+    padding: var(--medium);
+}
+
+.padding-large {
+    padding: var(--large);
+}
+
+.padding-huge {
+    padding: var(--huge);
+}
+
+.margin-none {
+    margin: 0;
+}
+
+.margin-tiny {
+    margin: var(--tiny);
+}
+
+.margin-small {
+    margin: var(--small);
+}
+
+.margin-medium {
+    margin: var(--medium);
+}
+
+.margin-large {
+    margin: var(--large);
+}
+
+.margin-huge {
+    margin: var(--huge);
+}
+
+/* centering */
+
+.center-x {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-y {
+    margin-top: auto;
+    margin-bottom: auto;
+}</code></pre>
+                </div>
             </section>
         </div>
     </main>
-    <footer class="bg-purple">
-        <div>
+    <footer class="bg-purple padding-large">
+        <div class="center-x padding-medium white">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia reiciendis in error voluptate
                 laboriosam, et similique corporis recusandae quia, quo adipisci amet quod praesentium doloremque tempora
                 itaque qui sequi eligendi ducimus! Optio delectus quo dicta autem mollitia a quidem? Dolore deserunt id
