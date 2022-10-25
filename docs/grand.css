@@ -16,12 +16,12 @@
     --orange: #FF921F;
     --light-grey: #ebebeb;
     --light-grey-code-border: #d1d1d1;
-    /* borders */
-    --border-tiny: 5px;
-    --border-small: 10px;
-    --border-medium: 15px;
-    --border-large: 20px;
-    --border-huge: 25px;
+    /* sizes */
+    --tiny: 5px;
+    --small: 10px;
+    --medium: 15px;
+    --large: 20px;
+    --huge: 25px;
 }
 
 /* css resets */
@@ -89,7 +89,7 @@ mark {
 
 .btn {
     padding: 15px;
-    border: solid 1px;
+    border: none;
 }
 
 /* colour sets */
@@ -223,23 +223,23 @@ mark {
 /*** borders ***/
 
 .border-tiny {
-    border-radius: var(--border-tiny);
+    border-radius: var(--tiny);
 }
 
 .border-small {
-    border-radius: var(--border-small);
+    border-radius: var(--small);
 }
 
 .border-medium {
-    border-radius: var(--border-medium);
+    border-radius: var(--medium);
 }
 
 .border-large {
-    border-radius: var(--border-large);
+    border-radius: var(--large);
 }
 
 .border-huge {
-    border-radius: var(--border-huge);
+    border-radius: var(--huge);
 }
 
 /*** miscellaneous ***/
@@ -290,6 +290,46 @@ mark {
     padding: 0;
 }
 
+.padding-tiny {
+    padding: var(--tiny);
+}
+
+.padding-small {
+    padding: var(--small);
+}
+
+.padding-medium {
+    padding: var(--medium);
+}
+
+.padding-large {
+    padding: var(--large);
+}
+
+.padding-huge {
+    padding: var(--huge);
+}
+
 .margin-none {
     margin: 0;
+}
+
+.margin-tiny {
+    margin: var(--tiny);
+}
+
+.margin-small {
+    margin: var(--small);
+}
+
+.margin-medium {
+    margin: var(--medium);
+}
+
+.margin-large {
+    margin: var(--large);
+}
+
+.margin-huge {
+    margin: var(--huge);
 }
