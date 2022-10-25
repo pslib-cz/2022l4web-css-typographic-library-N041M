@@ -30,8 +30,8 @@
     --light-grey-code-border: #d1d1d1;
 }
 
-/* css resets */
-/* test */
+                                                                                                                                                /* css resets */
+
 body {
     margin: 0;
 }
@@ -59,17 +59,16 @@ pre {
 }
 
 
-/***** colour presets *****/
+                                                                                                                                                /***** colour presets *****/
 
 mark {
     background-color: var(--purple);
     color: var(--white);
 }
 
-/*** typography ***/
+                                                                                                                                                /*** typography ***/
 
-
-/* text sizes */
+                                                                                                                                                /* text sizes */
 
 .font-tiny {
     font-size: var(--font-tiny);
@@ -91,7 +90,7 @@ mark {
     font-size: var(--font-huge);
 }
 
-/*** buttons ***/
+                                                                                                                                                /*** buttons ***/
 
 .btn {
     padding: 15px;
@@ -118,7 +117,7 @@ mark {
     padding: 25px;
 }
 
-/* colours */
+                                                                                                                                                /* colours */
 
 .purple {
     color: var(--purple);
@@ -184,9 +183,41 @@ mark {
     background-color: var(--white);
 }
 
-/*** composition ****/
+.border-purple {
+    border: var(--purple);
+}
 
-/* flex */
+.border-red {
+    border: var(--red);
+}
+
+.border-blue {
+    border: var(--blue);
+}
+
+.border-green {
+    border: var(--green);
+}
+
+.border-yellow {
+    border: var(--yellow);
+}
+
+.border-orange {
+    border: var(--orange);
+}
+
+.border-black {
+    border: var(--black);
+}
+
+.border-white {
+    border: var(--white);
+}
+
+                                                                                                                                                /*** composition ****/
+
+                                                                                                                                                /* flex */
 
 .flex-row {
     display: flex;
@@ -244,29 +275,81 @@ mark {
     gap: var(--huge);
 }
 
-/*** borders ***/
+                                                                                                                                                /*** borders ***/
+
+.border-solid {
+    border: solid;
+}
+
+.border-dashed {
+    border: dashed;
+}
+
+.border-dotted {
+    border: dotted;
+}
+
+.border-double {
+    border: double;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-1 {
+    border: 1px;
+}
+
+.border-2 {
+    border: 2px;
+}
+
+.border-3 {
+    border: 3px;
+}
 
 .border-tiny {
-    border-radius: var(--tiny);
+    border: var(--tiny);
 }
 
 .border-small {
-    border-radius: var(--small);
+    border: var(--small);
 }
 
 .border-medium {
-    border-radius: var(--medium);
+    border: var(--medium);
 }
 
 .border-large {
-    border-radius: var(--large);
+    border: var(--large);
 }
 
 .border-huge {
+    border: var(--huge);
+}
+
+.radius-tiny {
+    border-radius: var(--tiny);
+}
+
+.radius-small {
+    border-radius: var(--small);
+}
+
+.radius-medium {
+    border-radius: var(--medium);
+}
+
+.radius-large {
+    border-radius: var(--large);
+}
+
+.radius-huge {
     border-radius: var(--huge);
 }
 
-/*** miscellaneous ***/
+                                                                                                                                                /*** miscellaneous ***/
 
 .fixed {
     /* Acount for overlap by adding space under top effected element */
@@ -371,7 +454,7 @@ mark {
     margin: var(--huge);
 }
 
-/* centering */
+                                                                                                                                                /* centering */
 
 .center-x {
     margin-left: auto;
@@ -383,7 +466,7 @@ mark {
     margin-bottom: auto;
 }
 
-/* images */
+                                                                                                                                                /* images */
 
 @keyframes in {
     to {
