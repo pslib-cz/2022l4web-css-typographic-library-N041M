@@ -162,7 +162,7 @@ List of border styles:
 3. `border-dotted`
 4. `border-double`
 5. `border-none`
-6. `radius-(size)`
+6. `border-(size)`
     - `border-1`, `border-2`, `border-3`
-    
+
 7.` radius-(size)`
