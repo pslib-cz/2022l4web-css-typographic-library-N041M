@@ -115,3 +115,21 @@ Images can be implemeted like this:
 
 List of image styles:
 1. `img`
+
+## Colour sets
+Grant.css contains only one colour set that is made to highlight code snippets.
+
+It can be implemented like so:
+<img src="/docs/img/carbon/code.png">
+
+List of colour set styles:
+1. `bg-code`
+
+## Colours
+This project contains a small colour palette, see [variables](#variable) for said colours.
+
+List of colour styles:
+
+1. `(colour)`
+2. `bg-(colour)`
+3. `border-(colour)`
