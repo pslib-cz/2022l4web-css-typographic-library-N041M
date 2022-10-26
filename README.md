@@ -5,6 +5,14 @@ Grand.css is a free library meant to jumpstart your next project. It contains si
 ## Demo site
 Link to [Grand.css](https://pslib-cz.github.io/2022l4web-css-typographic-library-N041M) site for preview.
 Whole website was built using the modular nature of this CSS file besides minor stylistic changes. 
+## Key features
+1. semi-complex display flex "module"
+2. semi-fully customisible button builder
+3. predefined code snippet style
+4. simple colour palette
+5. height and width presets
+6. marging and padding presets
+7. simple centering
 ## List of contents
 1. [Implementation](#implementation)
 ## Implementation
@@ -19,6 +27,6 @@ Whole website was built using the modular nature of this CSS file besides minor 
 Grand.css has a list of predefined sizes, timings and colours that can be easily edited in the `:root` section inside the CSS file. All variables are stored there for ease managing global changes.
 This is a list of all variables inside Grand.css:
 
-<img src="/docs/img/carbon/root.png" alt="root" height="700px" margin-left="auto">
+<img src="/docs/img/carbon/root.png" alt="root" height="700px">
 ## Font sizes
 
