@@ -64,7 +64,4 @@ You are able to change:
 6. border colour
 
 Buttons can be implemented like so:
-
-<p>
     <img src="/docs/img/carbon/button.png" alt="button">
-</p>
