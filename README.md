@@ -90,14 +90,14 @@ Flex can be implemented like this:
 <img src="/docs/img/carbon/flex.png" alt="flex">
 
 List of flex styles:
-1. flex-row
-2. flex-row-rev
-3. flex-column
-4. flex-column-rev
-5. flex-around
-6. flex-between
-7. flex-wrap
-8. flex-nowrap
-9. gap-(size)
+1. `flex-row`
+2. `flex-row-rev`
+3. `flex-column`
+4. `flex-column-rev`
+5. `flex-around`
+6. `flex-between`
+7. `flex-wrap`
+8. `flex-nowrap`
+9. `gap-(size)`
 
 See [variables](#variables) for sizes.
