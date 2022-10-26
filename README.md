@@ -107,5 +107,5 @@ See [variables](#variables) for sizes.
 Provides simple animation on hover over a `<img>` tag.
 
 <p align="center">
-    <img src="/docs/img/carbon/flex.png" alt="images" width="400px">
+    <img src="/docs/img/carbon/images.png" alt="images" width="400px">
 </p>
