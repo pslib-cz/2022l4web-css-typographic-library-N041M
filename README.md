@@ -18,6 +18,7 @@ Whole website was built using the modular nature of this CSS file besides minor 
 ## Variables
 Grand.css has a list of predefined sizes, timings and colours that can be easily edited in the `:root` section inside the CSS file. All variables are stored there for ease managing global changes.
 This is a list of all variables inside Grand.css:
-<img src="/docs/img/carbon/root.png" alt="root" height="500px">
+
+<img src="/docs/img/carbon/root.png" alt="root" height="700px">
 ## Font sizes
 
