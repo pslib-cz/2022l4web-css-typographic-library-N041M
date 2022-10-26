@@ -19,6 +19,7 @@ Whole website was built using the modular nature of this CSS file besides minor 
 3. [Font Sizes](#font-sizes)
 4. [Buttons](#buttons)
 5. [Flex](#flex)
+6. [Images](#images)
 ## Implementation
 1. Download the [Grand.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-N041M/blob/master/docs/grand.css) file.
 2. Add the file inside your IDE to your project.
@@ -32,7 +33,7 @@ Grand.css has a list of predefined sizes, timings and colours that can be easily
 This is a list of all variables inside Grand.css:
 
 <p align="center">
-    <img src="/docs/img/carbon/root.png" alt="root" height="700px">
+    <img src="/docs/img/carbon/root.png" alt="root" width="400px">
 </p>
 
 ## Font Sizes
@@ -72,7 +73,7 @@ List of button styles:
 1. `btn`
 2. `border-(colour)`
 3. `radius-(size)`
-    1. `border-1`, `border-2`, `border-3`  -  number represents pixels
+    - `border-1`, `border-2`, `border-3`  -  number represents pixels
 
 See [variables](#variables) for colours and sizes.
 
@@ -101,3 +102,10 @@ List of flex styles:
 9. `gap-(size)`
 
 See [variables](#variables) for sizes.
+
+## Images
+Provides simple animation on hover over a `<img>` tag.
+
+<p align="center">
+    <img src="/docs/img/carbon/flex.png" alt="images" width="400px">
+</p>
