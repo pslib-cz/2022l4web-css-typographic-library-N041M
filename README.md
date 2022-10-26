@@ -71,4 +71,4 @@ List of button styles:
 2. border-(colour*)
 3. radius-(size*)
 
-`*` see [variables](#variables) for colours and sizes
+<p>*</p> see [variables](#variables) for colours and sizes
