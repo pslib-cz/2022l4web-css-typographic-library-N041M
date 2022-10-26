@@ -17,6 +17,8 @@ Whole website was built using the modular nature of this CSS file besides minor 
 1. [Implementation](#implementation)
 2. [Variables](#variables)
 3. [Font Sizes](#font-sizes)
+4. [Buttons](#buttons)
+5. [Flex](#flex)
 ## Implementation
 1. Download the [Grand.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-N041M/blob/master/docs/grand.css) file.
 2. Add the file inside your IDE to your project.
@@ -69,7 +71,33 @@ Buttons can be implemented like so:
 List of button styles:
 1. btn
 2. border-(colour)
-    1. border-1, border-2, border-3 - number represents pixels
 3. radius-(size)
+    1. border-1, border-2, border-3  -  number represents pixels
 
 See [variables](#variables) for colours and sizes.
+
+## Flex
+This part of Grand.css is meant to assist in fast sketching out and implementing of simple layouts.
+Grand.css contains:
+1. flex row and row reversed
+2. flex column and column reversed
+3. justify content space around
+4. justify content space between
+5. flex wrap and no wrap
+6. gap presets
+
+Flex can be implemented like this:
+<img src="/docs/img/carbon/flex.png" alt="flex">
+
+List of flex styles:
+1. flex-row
+2. flex-row-rev
+3. flex-column
+4. flex-column-rev
+5. flex-around
+6. flex-between
+7. flex-wrap
+8. flex-nowrap
+9. gap-(size)
+
+See [variables](#variables) for sizes.
