@@ -165,4 +165,4 @@ List of border styles:
 6. `border-(size)`
     - `border-1`, `border-2`, `border-3`
 
-7.` radius-(size)`
+7. `radius-(size)`
