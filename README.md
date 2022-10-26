@@ -10,8 +10,11 @@ Whole website was built using the modular nature of this CSS file besides minor 
 ## Implementation
 1. Download the [Grand.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-N041M/blob/master/docs/grand.css) file.
 2. Add the file inside your IDE to your project.
-3. Link Grand.css in the <head> section of a HTML where you want to use this project. 
+3. Link Grand.css in the `<head>` section of a HTML where you want to use this project. 
     1. It is recomended that files such as CSS resets and projects like this are linked above your own  CSS files. This prevents unwanted overriding.
+```html
+<link rel="stylesheet" href="./grand.css">
+```
 ## Usage
 ...
 ## Components
