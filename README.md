@@ -165,3 +165,14 @@ List of border styles:
 6. `border-(size)`
     1. `border-1`, `border-2`, `border-3`
 7. `radius-(size)`
+
+## Miscellaneous
+Random things that didnt fit anywhere else. Contains width, height, padding, margin and centering.
+
+List of styles:
+1. `width-(size)`
+2. `height-(size)`
+3. `padding-(size)`
+4. `margin-(size)`
+5. `center-x`
+6. `center-y`
