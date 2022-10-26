@@ -18,38 +18,6 @@ Whole website was built using the modular nature of this CSS file besides minor 
 ## Variables
 Grand.css has a list of predefined sizes, timings and colours that can be easily edited in the `:root` section inside the CSS file. All variables are stored there for ease managing global changes.
 This is a list of all variables inside Grand.css:
-```css
-:root {
-    /* typography */
-    --font-tiny: 12px;
-    --font-small: 18px;
-    --font-medium: 24px;
-    --font-large: 30px;
-    --font-huge: 36px;
-    /* sizes */
-    --tiny: 5px;
-    --small: 10px;
-    --medium: 15px;
-    --large: 20px;
-    --huge: 25px;
-    /* timing */
-    --shortest: 0.25s;
-    --short: 0.5s;
-    --standard: 0.75s;
-    --long: 1s;
-    --longest: 1.25s;
-    /* colours */
-    --purple: #5500FF;
-    --black: #000;
-    --white: #fff;
-    --red: #FA5353;
-    --blue: #459AFD;
-    --green: #29F676;
-    --yellow: #F0F320;
-    --orange: #FF921F;
-    --light-grey: #ebebeb;
-    --light-grey-code-border: #d1d1d1;
-}
-```
+![image](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=css&width=463&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Aroot%2520%257B%250A%2520%2520%2520%2520%252F*%2520typography%2520*%252F%250A%2520%2520%2520%2520--font-tiny%253A%252012px%253B%250A%2520%2520%2520%2520--font-small%253A%252018px%253B%250A%2520%2520%2520%2520--font-medium%253A%252024px%253B%250A%2520%2520%2520%2520--font-large%253A%252030px%253B%250A%2520%2520%2520%2520--font-huge%253A%252036px%253B%250A%2520%2520%250A%2520%2520%2520%2520%252F*%2520sizes%2520*%252F%250A%2520%2520%2520%2520--tiny%253A%25205px%253B%250A%2520%2520%2520%2520--small%253A%252010px%253B%250A%2520%2520%2520%2520--medium%253A%252015px%253B%250A%2520%2520%2520%2520--large%253A%252020px%253B%250A%2520%2520%2520%2520--huge%253A%252025px%253B%250A%2520%2520%250A%2520%2520%2520%2520%252F*%2520timing%2520*%252F%250A%2520%2520%2520%2520--shortest%253A%25200.25s%253B%250A%2520%2520%2520%2520--short%253A%25200.5s%253B%250A%2520%2520%2520%2520--standard%253A%25200.75s%253B%250A%2520%2520%2520%2520--long%253A%25201s%253B%250A%2520%2520%2520%2520--longest%253A%25201.25s%253B%250A%2520%2520%250A%2520%2520%2520%2520%252F*%2520colours%2520*%252F%250A%2520%2520%2520%2520--purple%253A%2520%25235500FF%253B%250A%2520%2520%2520%2520--black%253A%2520%2523000%253B%250A%2520%2520%2520%2520--white%253A%2520%2523fff%253B%250A%2520%2520%2520%2520--red%253A%2520%2523FA5353%253B%250A%2520%2520%2520%2520--blue%253A%2520%2523459AFD%253B%250A%2520%2520%2520%2520--green%253A%2520%252329F676%253B%250A%2520%2520%2520%2520--yellow%253A%2520%2523F0F320%253B%250A%2520%2520%2520%2520--orange%253A%2520%2523FF921F%253B%250A%2520%2520%2520%2520--light-grey%253A%2520%2523ebebeb%253B%250A%2520%2520%2520%2520--light-grey-code-border%253A%2520%2523d1d1d1%253B%250A%257D)
 ## Font sizes
 
