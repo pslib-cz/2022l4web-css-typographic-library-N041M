@@ -129,7 +129,6 @@ List of colour set styles:
 This project contains a small colour palette, see [variables](#variable) for said colours.
 
 List of colour styles:
-
 1. `(colour)`
 2. `bg-(colour)`
 3. `border-(colour)`
