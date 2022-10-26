@@ -64,11 +64,11 @@ You are able to change:
 6. border colour
 
 Buttons can be implemented like so:
-    <img src="/docs/img/carbon/button.png" alt="button">
+<img src="/docs/img/carbon/button.png" alt="button">
 
 List of button styles:
 1. btn
 2. border-(colour*)
 3. radius-(size*)
 
-<p>*</p> see [variables](#variables) for colours and sizes
+<p>* see variables for colours and sizes </p>
