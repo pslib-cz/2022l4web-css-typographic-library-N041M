@@ -39,3 +39,28 @@ As can be seen in the [variables](#variables) section, Grand.css contains *5 pre
 <p>
     <img src="/docs/img/carbon/fontsize.png" alt="fontsize">
 </p>
+
+The CSS it self is devided into individual cells like so:
+```css
+/* text sizes */
+
+.font-tiny {
+    font-size: var(--font-tiny);
+}
+
+.font-small {
+    font-size: var(--font-small);
+}
+
+.font-medium {
+    font-size: var(--font-medium);
+}
+
+.font-large {
+    font-size: var(--font-large);
+}
+
+.font-huge {
+    font-size: var(--font-huge);
+}
+```
