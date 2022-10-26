@@ -138,3 +138,30 @@ List of colour styles:
 1. `(colour)`
 2. `bg-(colour)`
 3. `border-(colour)`
+
+## Borders
+Enables simple and fast modification of border styles.
+
+Border styled:
+1. solid
+2. dashed
+3. dotted
+4. double
+5. none
+
+Border thickness:
+1. default sizes as seen in [variables](#variables)
+2. borders ranging from `1px` to `3px`
+
+Border radiuses:
+1. default sizes as seen in [variables](#variables)
+
+List of border styles:
+1. `border-solid`
+2. `border-dashed`
+3. `border-dotted`
+4. `border-double`
+5. `border-none`
+6. `radius-(size)`
+    - `border-1`, `border-2`, `border-3`
+7.` radius-(size)`
