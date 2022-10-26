@@ -34,3 +34,8 @@ This is a list of all variables inside Grand.css:
 </p>
 
 ## Font Sizes
+As can be seen in the [variables](#variables) section, Grand.css contains *5 preset sizes*. An example of this in practice can be seen here:
+
+<p>
+    <img src="/docs/img/carbon/fontsize.png" alt="fontsize">
+</p>
