@@ -128,6 +128,9 @@ List of colour set styles:
 ## Colours
 This project contains a small colour palette, see [variables](#variable) for said colours.
 
+`(colour)` changes colour of text.
+`bg-(colour)` changes background colour.
+
 List of colour styles:
 1. `(colour)`
 2. `bg-(colour)`
