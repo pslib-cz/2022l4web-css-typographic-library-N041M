@@ -109,3 +109,9 @@ Provides simple animation on hover over a `<img>` tag.
 <p align="center">
     <img src="/docs/img/carbon/images.png" alt="images" width="400px">
 </p>
+
+Images can be implemeted like this:
+<img src="/docs/img/carbon/imgexample.png">
+
+List of image styles:
+1. `img`
