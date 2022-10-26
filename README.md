@@ -68,7 +68,8 @@ Buttons can be implemented like so:
 
 List of button styles:
 1. btn
-2. border-(colour*)
-3. radius-(size*)
+2. border-(colour)
+    1. border-1, border-2, border-3 - number represents pixels
+3. radius-(size)
 
-<p>* see variables for colours and sizes </p>
+See [variables](#variables) for colours and sizes.
