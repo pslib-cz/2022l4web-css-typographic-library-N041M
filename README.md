@@ -49,11 +49,11 @@ The CSS it self is devided into individual cells like so:
 </p>
 
 List of font styles:
-1. font-tiny
-2. font-small
-3. font-medium
-4. font-large
-5. font-huge
+1. `font-tiny`
+2. `font-small`
+3. `font-medium`
+4. `font-large`
+5. `font-huge`
 
 ## Buttons
 Buttons are the most customisable aspect of this project. 
@@ -69,10 +69,10 @@ Buttons can be implemented like so:
 <img src="/docs/img/carbon/button.png" alt="button">
 
 List of button styles:
-1. btn
-2. border-(colour)
-3. radius-(size)
-    1. border-1, border-2, border-3  -  number represents pixels
+1. `btn`
+2. `border-(colour)`
+3. `radius-(size)`
+    1. `border-1`, `border-2`, `border-3`  -  number represents pixels
 
 See [variables](#variables) for colours and sizes.
 
