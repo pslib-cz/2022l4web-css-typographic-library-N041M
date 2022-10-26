@@ -52,3 +52,19 @@ List of font styles:
 3. font-medium
 4. font-large
 5. font-huge
+
+## Buttons
+Buttons are the most customisable aspect of this project. 
+You are able to change:
+1. colour of the text
+2. background colour
+3. size of the font
+4. border style
+5. border radius
+6. border colour
+
+Buttons can be implemented like so:
+
+<p>
+    <img src="/docs/img/carbon/button.png" alt="button">
+</p>
