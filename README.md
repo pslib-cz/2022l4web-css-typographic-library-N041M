@@ -42,7 +42,13 @@ As can be seen in the [variables](#variables) section, Grand.css contains *5 pre
 
 The CSS it self is devided into individual cells like so:
 
-<p>
-    <img src="/docs/img/carbon/fontsizecss.png" alt="font size css" width="400px" align="left">
-    hjsadjhkksajdjkhdahksjhkjdsajkhdakjhskhjdahjkdajkhadjkdjkhakhjdakjhdajkhkhjdhjkadkhjhjkadkjdajkhadjkhdajkhdadkjahkjhdahjkdahjkadhjkdahjk
+<p align="center">
+    <img src="/docs/img/carbon/fontsizecss.png" alt="font size css" width="400px">
 </p>
+
+List of font styles:
+1. font-tiny
+2. font-small
+3. font-medium
+4. font-large
+5. font-huge
