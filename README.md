@@ -119,6 +119,8 @@ List of image styles:
 ## Colour sets
 Grant.css contains only one colour set that is made to highlight code snippets.
 
+`bg-code` changes background colour to light grey and adds border border.
+
 It can be implemented like so:
 <img src="/docs/img/carbon/code.png">
 
