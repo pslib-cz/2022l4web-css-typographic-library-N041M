@@ -6,7 +6,7 @@ Grand.css is a free library meant to jumpstart your next project. It contains si
 Link to [Grand.css](https://pslib-cz.github.io/2022l4web-css-typographic-library-N041M) site for preview.
 Whole website was built using the modular nature of this CSS file besides minor stylistic changes. 
 ## Key features
-1. semi-complex display flex "module"
+1. semi-complex display flex stylesheet
 2. semi-fully customisible button builder
 3. predefined code snippet style
 4. simple colour palette
