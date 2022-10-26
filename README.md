@@ -37,30 +37,11 @@ This is a list of all variables inside Grand.css:
 As can be seen in the [variables](#variables) section, Grand.css contains *5 preset sizes*. An example of this in practice can be seen here:
 
 <p>
-    <img src="/docs/img/carbon/fontsize.png" alt="fontsize">
+    <img src="/docs/img/carbon/fontsize.png" alt="font size">
 </p>
 
 The CSS it self is devided into individual cells like so:
-```css
-/* text sizes */
 
-.font-tiny {
-    font-size: var(--font-tiny);
-}
-
-.font-small {
-    font-size: var(--font-small);
-}
-
-.font-medium {
-    font-size: var(--font-medium);
-}
-
-.font-large {
-    font-size: var(--font-large);
-}
-
-.font-huge {
-    font-size: var(--font-huge);
-}
-```
+<p align="left">
+<img src="/docs/img/carbon/fontsizecss.png" alt="font size css">
+</p>
