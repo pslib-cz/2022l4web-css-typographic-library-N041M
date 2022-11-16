@@ -23,7 +23,8 @@ Whole website was built using the modular nature of this CSS file besides minor 
 7. [Colour sets](#colour-sets)
 8. [Colours](#colours)
 9. [Borders](#borders)
-10.[Miscellaneous](#miscellaneous)
+10. [Miscellaneous](#miscellaneous)
+
 ## Implementation
 1. Download the [Grand.css](https://github.com/pslib-cz/2022l4web-css-typographic-library-N041M/blob/master/docs/grand.css) file.
 2. Add the file inside your IDE to your project.
